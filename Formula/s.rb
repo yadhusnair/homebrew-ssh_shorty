@@ -1,10 +1,10 @@
 class S < Formula
   desc "Fleet SSH management CLI — connect, broadcast, and monitor remote devices by nickname"
   homepage "https://github.com/yadhusnair/ssh_shorty"
-  url "https://github.com/yadhusnair/ssh_shorty/archive/refs/tags/v20260915.tar.gz"
-  sha256 "1cbc18345daf68378519d8d1f2e7a8a5560f8bbbf6692ac9c57941971ae91b7a"
+  url "https://github.com/yadhusnair/ssh_shorty/archive/refs/tags/v20260916.tar.gz"
+  sha256 "b828d8c9e3d0d89d719cf38c6323fdb28903de92b3dc7d5643756bacc515e184"
   license "MIT"
-  version "20260915"
+  version "20260916"
 
   def install
     bin.install "s"
