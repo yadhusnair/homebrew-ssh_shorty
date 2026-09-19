@@ -1,10 +1,10 @@
 class S < Formula
   desc "Fleet SSH management CLI — connect, broadcast, and monitor remote devices by nickname"
   homepage "https://github.com/yadhusnair/ssh_shorty"
-  url "https://github.com/yadhusnair/ssh_shorty/archive/refs/tags/v20260924.tar.gz"
-  sha256 "eecd045715edeb41f8cbf7db31a450cf69396f2b26df71aa4b557861cec74743"
+  url "https://github.com/yadhusnair/ssh_shorty/archive/refs/tags/v20260925.tar.gz"
+  sha256 "425ad5df98fab3069c1497e36e46982ba3195f1d362159a3c8a3c81a0a63100c"
   license "MIT"
-  version "20260924"
+  version "20260925"
 
   # s uses mapfile / ${var,,} / local -n, all bash 4+ only — macOS's
   # stock /bin/bash is 3.2, so pin the shebang to this dependency's bash
